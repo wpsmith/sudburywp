@@ -1,0 +1,112 @@
+a.button,a:link.button,a:visited.button,a:hover.button{color:#ffffff;}
+a,a:link,a:visited,a:hover{color:#660011;}
+a:hover{color:#666666;}
+#activity-list li,.item-list-tabs li{border-bottom:1px solid #eaeaea;}
+#activity-rss,div#item-header h3 span.highlight span{border:1px solid #EBEBEB;background-color:#F8F8F8;}
+#activity-filter-links li{border-bottom:1px solid #eaeaea;}
+.alert{border:1px solid #aaaaaa;background-color:#eeeeee;}
+body{color:#666666;background-color:#666666;font-family:Georgia,Sans-serif;}
+#bp-nav li{border-bottom:1px solid #ffffff;}
+#bp-nav li a{color:#666666;background:#dddddd url('../images/foward.png') no-repeat;background-position:8px;}
+#bp-nav li a:link{color:#666666;}
+#bp-nav li a:visited{color:#666666;}
+#bp-nav li a:hover,#bp-nav li.current a,#bp-nav li.current a:link,#bp-nav li.selected a,#bp-nav li.selected a:link,#bp-nav li.current_page_item a:link,#bp-nav li.current_page_item a{color:#eeeeee;background:#666666 url('../images/foward.png') no-repeat;background-position:8px;}
+.content-header-nav li{border-bottom:1px solid #eaeaea;}
+#content-wrapper{background:#ffffff;}
+.date{border:1px solid #EBEBEB;background-color:#F8F8F8;}
+.entry{border-bottom:1px solid #eaeaea;}
+#featured-blogs-list li{border-bottom:1px solid #eeeeee;}
+#feature-image{background-color:#ffffff;border:1px solid #cccccc;}
+#featured-members-list li{border-bottom:1px solid #eeeeee;}
+#feature-wrapper{background:#eeeeee;}
+#footer-links{color:#dddddd;}
+#forum-topic-list li{border-bottom:1px solid #eeeeee;}
+#footer-links a,#footer-links a:link,#footer-links a:visited,#footer-links a:hover{color:#cccccc;}
+#footer-wrapper{background:#666666;border-top:3px solid #333333;}
+#friend-list li{border-bottom:1px solid #eeeeee;}
+.generic-button{border-bottom:1px solid #eaeaea;}
+#global-forum-topic-filters li{border-bottom:1px solid #eeeeee;}
+#global-forum-topic-list{background-color:#fafafa;border:1px solid #eaeaea;}
+#global-forum-topic-list th{background-color:#eeeeee;}
+#global-forum-topic-list table{border:1px solid #eeeeee;}
+.group-forum{border-bottom:1px solid #eeeeee;}
+#groups-list li{border-bottom:1px solid #eeeeee;}
+#groups-list .generic-button,#members-list .generic-button{border:none;}
+h1{font-size:40px;color:#ffffff;text-shadow:2px 2px 0 #111111;}
+h1 a,h1 a:link,h1 a:visited,h1 a:hover{color:#ffffff;}
+h2{color:#cccccc;}
+hr{background-color:#eeeeee;color:#eeeeee;}
+h3{color:#660011;font-size:18px;}
+h3#comments-number,h3#reply{border-bottom:1px solid #cccccc;color:#660011;}
+#latest h3{color:#ffffff;}
+.pagetitle,#settings-form h3,#profile-content h2{border-bottom:1px solid #cccccc;color:#660011;}
+h3#comments-number,h3#reply{border-bottom:1px solid #cccccc;color:#660011;}
+h4{color:#ffffff;}
+#header-wrapper{background:#5A5A5A url('../images/header_background.png') repeat-x;}
+.horiz-gallery li{border-bottom:1px solid #eeeeee;}
+img{border:1px solid #dddddd;}
+img.avatar{border:1px solid #eeeeee;background-color:#ffffff;}
+.image{background-color:#ffffff;border:1px solid #cccccc;}
+.info{border:1px solid #aaaaaa;background-color:#eeeeee;color:#666666;}
+input[type="submit"]{border:1px solid #660011;background-color:#660011;color:#ffffff;font-family:Georgia,Sans-serif;}
+input[type="submit"].search-dark{border:1px solid #440000;background-color:#440000;color:#ffffff;font-family:Georgia,Sans-serif;}
+input[type="text"]{border:1px solid #cccccc;background-color:#ffffff;color:#666666;font-family:Georgia,Sans-serif;}
+input[type="search"]{border:1px solid #cccccc;background-color:#ffffff;color:#666666;font-family:Georgia,Sans-serif;}
+input[type="password"]{border:1px solid #cccccc;background-color:#ffffff;color:#666666;font-family:Georgia,Sans-serif;}
+input[type="text"].search-top{border:1px solid #333333;background-color:#444444;color:#dddddd;font-family:Georgia,Sans-serif;background:#444444 url('../images/search.png') no-repeat right;}
+input[type="button"],.button{border:1px solid #660011;background-color:#660011;color:#ffffff;font-family:Georgia,Sans-serif;}
+#invite-list li{border-bottom:1px solid #eeeeee;}
+label{color:#666666;}
+#latest a,#latest a:link,#latest a:visited,#latest a:hover{color:#ffffff;}
+.latest-block{border-right:1px solid #dd0022;color:#ffffff;}
+.latest-block-end,.latest-block-end .pagetitle,.latest-block .pagetitle{color:#ffffff;}
+#latest-wrapper{background:#6D0019 url('../styles/red_images/red_feature_background.png') repeat-x;border-bottom:1px solid #eeeeee;}
+#latest-wrapper .widget-error,#latest-wrapper .widget-error a,#latest-wrapper .widget-error a:link,#latest-wrapper .widget-error a:hover,#latest-wrapper .widget-error a:visited{color:#666666;}
+.left-menu{border-bottom:1px solid #eeeeee;}
+#login-wrapper{border-top:1px solid #660011;background:#eeeeee;}
+#members-list li{border-bottom:1px solid #eeeeee;}
+.messages-options{border:1px solid #EBEBEB;background-color:#F8F8F8;}
+.sf-menu a,.sf-menu a:visited{color:#ffffff;cursor:pointer;}
+.sf-menu li li{background-color:#333333;cursor:pointer;}
+.sf-menu li li li{background-color:#333333;cursor:pointer;}
+.sf-menu li:hover,.sf-menu li.current,.sf-menu li.current a:visited,.sf-menu li.current_page_item,.sf-menu li.current_page_item a:visited,.sf-menu li.sfHover,
+.sf-menu a:focus,.sf-menu a:hover,.sf-menu a:active{color:#ffffff;background-color:#333333;cursor:pointer;}
+.sf-menu .selected a{color:#ffffff;background-color:#333333;cursor:pointer;}
+.navigation-wrapper .selected,.navigation-wrapper .current_page_item{color:#ffffff;background-color:#333333;}
+.navigation-wrapper{background:#333333 url('../images/navigation_background.png') repeat-x;}
+ol.commentlist li.comment div.vcard img.avatar{border:1px solid #aaaaaa;}
+ol.commentlist li.comment div.comment-meta a{color:#660011;}
+ol.commentlist ul.children li.depth-2{border-left:5px solid #dddddd;margin:0 0 20px 20px;}
+ol.commentlist ul.children li.depth-3{border-left:5px solid #dddddd;margin:0 0 20px 20px;}
+ol.commentlist ul.children li.depth-4{border-left:5px solid #dddddd;margin:0 0 20px 20px;}
+ol.commentlist li.even{border:1px solid #EBEBEB;background-color:#F8F8F8;}
+ol.commentlist li.odd{border:1px solid #EBEBEB;background-color:#F8F8F8;}
+ol.commentlist li.parent{border-left:5px solid #dddddd;}
+#options-nav li{border-bottom:1px solid #ffffff;}
+#options-nav li a{color:#666666;background:#dddddd url('../images/foward.png') no-repeat;background-position:8px;}
+#options-nav li a:link{color:#666666;}
+#options-nav li a:visited{color:#666666;}
+#options-nav li a:hover,#options-nav li.current a,#options-nav li.current a:link,#options-nav li.selected a,#options-nav li.selected a:link,#options-nav li.current_page_item a:link,#options-nav li.current_page_item a{color:#eeeeee;background:#666666 url('../images/foward.png') no-repeat;background-position:8px;}
+.post blockquote{background:url('../styles/red_images/red_quote.png') no-repeat;color:#660011;}
+.post h1{color:#660011;}
+.post h2{color:#660011;}
+.post h3{color:#660011;}
+.post h4,#sidebar h4,#sidebar-left h4,#sidebar-small h4{color:#660011;}
+.post h5{color:#660011;}
+.post h6{color:#660011;}
+.post ol,.post ul,#sidebar ol,#sidebar-left ol,#sidebar ul,#sidebar-left ul,#sidebar-small ol,#sidebar-small ul{color:#660011;}
+.post ol,.post ul{color:#660011;}
+#random-members-list li{border-bottom:1px solid #eeeeee;}
+#request-list li{border-bottom:1px solid #eeeeee;}
+select{border:1px solid #cccccc;background-color:#ffffff;color:#666666;font-family:Georgia,Sans-serif;}
+#signup-box{border-left:1px solid #cccccc;}
+.site-stats{border-top:1px solid #dd0022;}
+.standard-form{border:1px solid #EBEBEB;background-color:#F8F8F8;}
+textarea{border:1px solid #cccccc;background-color:#ffffff;color:#666666;font-family:Georgia,Sans-serif;}
+table.forum tr.sticky td.td-title{background-image:url( ../images/options.png );background-position:10px 30%;background-repeat:no-repeat;}
+table.forum tr.closed td.td-title{background-image:url( ../images/closed_topic.png );background-position:10px 30%;background-repeat:no-repeat;}
+#topic-post-list li{border-bottom:1px solid #eeeeee;}
+.widget-error{border:1px solid #aaaaaa;background-color:#eeeeee;}
+
+
+/* 211587-1371662098 */

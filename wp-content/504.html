@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sudbury MA | Temporarily Offline</title>
+    <meta name="author" content="Eddie Hurtig" />
+    <meta name="application-name" content="Sudbury Error Reporting" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="/wp-content/error-assets/css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="/wp-content/error-assets/css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="/wp-content/error-assets/css/icons.css" rel="stylesheet" type="text/css" />
+
+    <link href="/wp-content/error-assets/css/main.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="errorPage">
+<div class="container-fluid">
+    <div class="errorContainer offline" style="display:none;">
+        <div class="page-header">
+            <img src="//sudbury.ma.us/img/header.jpg" />
+            <h1 class="center">Gateway Error</h1>
+        </div>
+
+        <h4 class="center">We are experiencing some issues at the moment. Our monitoring systems should alert us to this issue momentarily.</h4>
+
+        <div class="social">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="span6 center"><span class="icon16 icomoon-icon-twitter-2 blue"></span><a href="https://twitter.com/Sudbury_Town">Keep in touch with twitter</a></div>
+                    <div class="span6 center"><span class="icon16 icomoon-icon-facebook-2 blue"></span><a href="//facebook.com/sudburyma">Check in on facebook</a></div>
+                </div>
+            </div>
+        </div>
+        <hr />
+	<p class="center">If this issue persists, please contact <a href="mailto:webmaster@sudbury.ma.us">Sudbury Information Systems</a></p>
+        <hr />
+        <div class="center">
+            <a href="javascript: history.go(-1)" class="btn" style="margin-right:10px;"><span class="icon16 icomoon-icon-arrow-left-10"></span>Go back</a>
+            <a href="/wp-admin/" class="btn"><span class="icon16 icomoon-icon-screen"></span>Administration</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/wp-content/error-assets/js/bootstrap/bootstrap.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.errorContainer').hide();
+        $('.errorContainer').fadeIn(1000).animate({
+            'top': "50%", 'margin-top': +($('.errorContainer').height()/-2-30)
+        }, {duration: 750, queue: false}, function() {
+        });
+    });
+</script>
+</body>
+</html>

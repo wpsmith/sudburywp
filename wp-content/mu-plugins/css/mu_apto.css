@@ -1,0 +1,16 @@
+/*
+Styles specific to the Advanced Post types Order plugin 
+*/
+#apto_form_order #sort_list_type.view-switch,
+#apto_form_order a.toggle_thumbnails
+/*.major-publishing-actions .actions.alignleft */
+{
+	display: none !important;
+}
+/*.major-publishing-actions .actions.alignright {
+	float: left;
+} */
+/*#order-post-type li .item span.option.move_top, #order-post-type li .item span.option.move_bottom {
+		display: none;
+}
+*/

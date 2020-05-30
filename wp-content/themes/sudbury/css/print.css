@@ -1,0 +1,24 @@
+/* Print stylesheet */
+
+.help, .details, .menu, .menu-body, #picture, #tour-cont, .help-switch, #dept-nav, #fly-out-menu, #footer-cont, .internal-header, .external-header, #header-bottom, .header-ext { display: none !important; }
+#header-top { height: 90px; }
+#header-bottom ul li a { color: #000000; }
+body, #body, #header-top, #header-bottom ul, .header-ext ul { width: 100%; margin: 0; float: none; }
+
+.department_page #right-col { width: 100%; clear: both; float: none; }
+.department_page #right-col-head { width: 60%; top: 0px; left: 0px; float: left;  }
+.department_page #right-col-details { width: 35%; top: 0px; right: 0px; float: right; }
+.department_page #main-col-menu, .department_page #main-col { clear: both; width: 100%; overflow: visible !important; height: auto !important;}
+.department_page #main-col-slider { width: 100%; left: 0px !important; }
+.department_page #main-col-menu h1 { float: none; }
+.department_page #main-col-slider .tab { float: none; display: none; }
+.department_page #main-col-slider div.visibletab { display: block; width: 100%; }
+.department_page #office-desc, .department_page #contact, .department_page .visibletab .articles { font-size: 13px; }
+
+.news_article #right-col { display: none; }
+.news_article #main-col { width: 100%; }
+
+.index_page #main-col { width: 67%; top: 0px; left: 0px; }
+.index_page #right-col { width: 30%; top: 0px; right: 0px; }
+
+.cornerButton { display: none; }

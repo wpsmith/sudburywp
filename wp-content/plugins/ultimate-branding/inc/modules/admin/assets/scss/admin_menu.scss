@@ -1,0 +1,37 @@
+@import '../../../../../assets/sass/mixin';
+
+.branda-admin-page {
+	.sui-wrap.sui-wrap-branda {
+		.branda-custom-admin-menu-dialog {
+			.sui-tabs-overflow {
+				.sui-tabs-content {
+					.sui-tab-content {
+						padding: 0;
+					}
+				}
+			}
+
+			.branda-custom-admin-menu-users {
+				display: none;
+
+				.sui-box-body:first-child {
+					padding-top: 0;
+				}
+
+				// TODO: use shared-ui variables 
+				.select2-selection__placeholder:before {
+					font-family: 'wpmudev-plugin-icons';
+					content: "\b5";
+					font-size: 16px;
+					display: inline-block;
+					text-align: center;
+					vertical-align: -1px;
+					padding-right: 12px;
+				}
+			}
+
+			@import "admin-menu/menu-tabs";
+			@import "admin-menu/custom-admin-menu";
+		}
+	}
+}

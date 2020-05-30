@@ -1,0 +1,702 @@
+/*
+Theme Name:Sudbury
+Theme URI:http://hurtigtechnologies.com/projects/sudbury-wp/
+Author:Eddie Hurtig
+Author URI:http://hurtigtechnologies.com/
+Description: The Custom Theme built be Eddie Hurtig for the Town of Sudbury in 2014. It is based on the previous custom html design by Ian Wetherbee.
+Version: 4.5
+License: Copyright 2013-2018 Town of Sudbury. All Rights Reserved
+Text Domain: sudbury
+*/
+
+/* Set a reasonable minimium page size */
+html, body {
+	min-width: 320px;
+	background: #f6f6f6;
+}
+
+#cont {
+	padding-top: 1rem;
+}
+
+#body {
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	background: #F0F0F0;
+	border-top: #E0E0E0 1px solid;
+}
+
+#header-top {
+	background: #fff;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	#primary-nav {
+		font-size: 0.80rem;
+	}
+
+	#links-nav {
+		font-size: 0.80rem;
+	}
+}
+
+#footer {
+	clear: both;
+	margin: 0px auto 15px auto;
+	padding: 10px;
+	text-align: left;
+	font-size: 12px;
+	line-height: 125%;
+	height: 200px;
+}
+
+#footer .line {
+	margin: 4px 0px;
+}
+
+#footer a {
+	color: #0076CD;
+	font-size: 13px;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#main-col p {
+	margin-bottom: 10px;
+}
+
+.scroll-wrap {
+	background: #f6f6f6;
+}
+
+.scroll {
+	padding: 1rem 0;
+	display: none;
+}
+
+.hover-reveal {
+	opacity: 0;
+}
+
+.hover-reveal:hover {
+	opacity: 1;
+	transition: opacity .3s;
+}
+
+.container-fluid-xl {
+	max-width: 1140px;
+}
+
+.notes {
+	font-style: italic;
+	font-size: 0.8rem;
+}
+
+/* ============================= */
+/*        Section Headers        */
+/* ============================= */
+h1, h2, h3, h4, h5, h6 {
+	position: relative;
+}
+
+.section-header-links,
+h1 .post-edit-link {
+	font-size: 13px;
+	float: right;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+	.section-header-links,
+	h1 .post-edit-link {
+		float: none;
+		position: relative;
+		bottom: 0;
+		right: 0;
+	}
+
+	span.section-header-links:before {
+		content: "\A";
+		white-space: pre;
+	}
+}
+
+/* Articles */
+article img {
+	max-width: 100%;
+	height: auto;
+}
+
+main > article {
+	background: #fff;
+	padding: 1rem;
+}
+
+.entry-meta {
+	color: #666;
+}
+
+.meta-info {
+	color: #666;
+	font-size: .75rem;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+.articles article {
+	margin: 1rem 0;
+	background: #fff;
+}
+
+.articles article .post-thumbnail {
+	background: #fff;
+	padding: 0;
+	display: block;
+	text-align: center;
+	position: relative;
+	white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+}
+
+.articles article .post-thumbnail .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.articles article .post-thumbnail a {
+	color: #fff;
+	vertical-align: middle;
+}
+
+.articles article .post-thumbnail.has-icon {
+	background: #0b4f8d;
+}
+
+@media only screen and (max-width: 992px) {
+	.articles article .post-thumbnail {
+		display: none;
+	}
+}
+
+.articles article .post-thumbnail i.fa {
+	font-size: 80px;
+	padding: 45px 0;
+}
+
+.articles article .entry {
+	padding: 1rem;
+}
+
+.attachments-attachment {
+	padding: 1rem;
+	background: #fff;
+	transition: background-color linear .3s;
+}
+
+.attachments-attachment:hover {
+	background-color: #eee;
+}
+
+/* ============================= */
+/*           Tablecap            */
+/* ============================= */
+.table-bordered td, .table-bordered th {
+	border: 1px solid #000;
+}
+
+.tablecap table tbody tr.faq-categories td {
+	border: 0;
+}
+
+#main-col .tablecap .coltitle {
+	font-size: 13px;
+}
+
+.tablecap {
+	padding: 10px 0px;
+}
+
+.tablecap .cap, .tablecap h4 {
+	background: #FFF;
+	color: #000;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 7px;
+	border: 1px solid #B2D3E4;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	margin: 0;
+}
+
+.tablecap table {
+	width: 100%;
+	border-right: 1px solid #B2D3E4;
+	border-left: 1px solid #B2D3E4;
+}
+
+#main-col .tab .tablecap table th, #main-col .tab .tablecap table td {
+	vertical-align: top;
+	border-right: 1px solid #B2D3E4;
+	padding: 4px 7px;
+}
+
+.tablecap table th, .tablecap table th a, .tablecap table th a:visited {
+	background: #62A2CF;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.5em;
+	border-left: 1px solid #B2D3E4;
+	text-align: left;
+}
+
+.tablecap table td {
+	background: #EBF4F8;
+	font-size: 13px;
+	line-height: 1.5em;
+	border: 1px solid #B2D3E4;
+}
+
+.tablecap table tr.archived td, .tablecap table tr.public-archive td {
+	background: #f7e3ed;
+}
+
+.tablecap table td a:hover {
+	text-decoration: underline;
+}
+
+.tablecap .foot {
+	height: 6px;
+	border: 1px solid #B2D3E4;
+	border-top: none;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	background: #62A2CF;
+}
+
+.tablecap tr.midspan td {
+	background: #62A2CF;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.tablecap .tablep {
+	margin: 5px 5px 5px 10px;
+}
+
+/* ============================= */
+/*      Hero Image Support       */
+/* ============================= */
+#hero {
+	height: 400px;
+	overflow: hidden;
+}
+
+#hero .site-title {
+	font-size: 4rem;
+	padding: 100px 0;
+}
+
+#tasks {
+	padding: 1rem 0;
+	background: #fff;
+}
+
+/* ============================= */
+/*       Widgets and Misc        */
+/* ============================= */
+.widget {
+	background: #fff;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.widget.widget_sp_image {
+	padding: 0;
+	background: none;
+}
+
+.widget_sp_image img {
+	height: auto;
+}
+
+.post-edit-link {
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.widget_sudbury_contact_info p {
+	margin-bottom: 0;
+}
+
+.widget_recent_entries ul {
+	list-style: none;
+	padding: 0;
+}
+
+.widget_recent_entries ul li {
+	padding-bottom: .5rem;
+}
+
+.widget_recent_entries .post-date {
+	font-size: 11px;
+	color: #555;
+}
+
+.related-img.counterpar, #right-col .widget_related_departments_widget .counterpar {
+	background: url(lib/icons/arrow_switch.png) top left no-repeat;
+	padding-left: 20px;
+}
+
+.related-img.child, #right-col .widget_related_departments_widget .child {
+	background: url(lib/icons/arrow_divide_flip.png) top left no-repeat;
+	padding-left: 20px;
+}
+
+.related-img.parent, #right-col .parent, #right-col .widget_related_departments_widget .widget_related_departments_widget .infoowner {
+	background: url(lib/icons/arrow_join.png) top left no-repeat;
+	padding-left: 20px;
+}
+
+.related-img.infocenter, #right-col .widget_related_departments_widget .infocenter {
+	background: url(lib/icons/information.png) top left no-repeat;
+	padding-left: 20px;
+}
+
+.related-img.home, #right-col .widget_related_departments_widget .home {
+	background: url(lib/icons/house.png) top left no-repeat;
+}
+
+/* https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.divider {
+	height: 5px;
+}
+
+iframe {
+	width: 100%;
+	display: block;
+	-webkit-box-shadow: 0px 1px 9px -3px #000000;
+	-moz-box-shadow: 0px 1px 9px -3px #000000;
+	box-shadow: 0px 1px 9px -3px #000000;
+	border: 0;
+}
+
+/************************ ------ wordpress.org/plugins/tabby-responsive-tabs/ ------ *****************************/
+.responsive-tabs .responsive-tabs__heading {
+	display: none;
+}
+
+.responsive-tabs .responsive-tabs__list__item {
+	display: inline;
+	cursor: pointer;
+}
+
+.responsive-tabs-wrapper {
+	clear: both;
+	margin-bottom: 20px;
+	zoom: 1;
+}
+
+.responsive-tabs-wrapper:before,
+.responsive-tabs-wrapper:after {
+	content: "";
+	display: table;
+}
+
+.responsive-tabs-wrapper:after {
+	clear: both;
+}
+
+.responsive-tabs .responsive-tabs__heading:focus,
+.responsive-tabs .responsive-tabs__list__item:focus {
+	outline: 1px solid transparent;
+}
+
+.responsive-tabs .responsive-tabs__heading--active:focus,
+.responsive-tabs .responsive-tabs__list__item--active:focus {
+	outline: none;
+}
+
+.responsive-tabs ul.responsive-tabs__list {
+	font-size: 18px;
+	line-height: 18px;
+	margin: 0; /* 20px 0 0 12px; */
+	padding: 0;
+}
+
+.responsive-tabs .responsive-tabs__list__item {
+	background: transparent;
+	border: 1px solid transparent;
+	border-bottom: none;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: #999;
+	font-size: 14px;
+	line-height: 15px;
+	text-transform: inherit;
+	margin: 1px 12px 0 0;
+	padding: 5px 5px 5px;
+	white-space: nowrap;
+	float: left;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.responsive-tabs .responsive-tabs__list__item .fa {
+	margin-right: 8px;
+	line-height: 0.8;
+}
+
+.responsive-tabs .responsive-tabs__list__item:hover {
+	color: #333;
+	background: transparent;
+}
+
+.responsive-tabs .responsive-tabs__list__item--active,
+.responsive-tabs .responsive-tabs__list__item--active:hover {
+	background: #fff;
+	border-color: #ddd;
+	color: #666;
+	padding-bottom: 11px;
+	margin-top: 0;
+	position: relative;
+	top: 1px;
+}
+
+.responsive-tabs .responsive-tabs__panel {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+	clear: left;
+	margin-bottom: 0;
+	padding: 20px 20px 0;
+	word-wrap: break-word;
+}
+
+.responsive-tabs .responsive-tabs__panel:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+@media (min-width: 768px) {
+
+	.responsive-tabs .responsive-tabs__panel--closed-accordion-only {
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.responsive-tabs .responsive-tabs__list {
+		display: none;
+	}
+
+	.responsive-tabs .responsive-tabs__heading {
+		display: block;
+		cursor: pointer;
+	}
+
+	.responsive-tabs-wrapper {
+		border-top: 1px solid #ccc;
+	}
+
+	.responsive-tabs .responsive-tabs__heading {
+		background: #fff;
+		border: 1px solid #ccc;
+		border-top: none;
+		color: #777;
+		font-size: 18px;
+		font-weight: normal;
+		text-transform: inherit;
+		margin: 0;
+		padding: 10px 0;
+		padding-left: 20px;
+		position: relative;
+	}
+
+	.responsive-tabs .responsive-tabs__heading .fa {
+		margin-right: 8px;
+		display: none;
+	}
+
+	.responsive-tabs .responsive-tabs__heading:after {
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid #777;
+		content: "";
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		height: 0;
+		width: 0;
+	}
+
+	.responsive-tabs .responsive-tabs__heading:hover {
+		background: #eee;
+		color: #777;
+	}
+
+	.responsive-tabs .responsive-tabs__heading:hover:after {
+		border-top: 6px solid #777;
+	}
+
+	.responsive-tabs .responsive-tabs__heading--active,
+	.responsive-tabs .responsive-tabs__heading--active:hover {
+		background: #ccc;
+		color: #fff;
+	}
+
+	.responsive-tabs .responsive-tabs__heading--active:after,
+	.responsive-tabs .responsive-tabs__heading--active:hover:after {
+		border-bottom: 6px solid #fff;
+		border-top: 0;
+		top: 18px;
+	}
+
+	.responsive-tabs .responsive-tabs__panel {
+		background: #fff;
+		border: 1px solid #ccc;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		border-top: none;
+		margin: 0;
+		padding: 0 20px;
+		padding-top: 20px;
+	}
+}
+
+@media print {
+
+	.noprint,
+	.responsive-tabs .responsive-tabs__list {
+		display: none;
+	}
+
+	.responsive-tabs h2.tabtitle {
+		display: block !important;
+	}
+
+	.responsive-tabs .responsive-tabs__heading {
+		background: none;
+		border: none;
+		display: block;
+		font-size: 22px;
+		font-weight: bold;
+		text-transform: inherit;
+		margin: 0 !important;
+		padding: 10px 0 0;
+	}
+
+	.responsive-tabs .responsive-tabs__panel {
+		display: block !important;
+		background: none;
+		border: none;
+		padding: 0;
+	}
+}
+
+/************** 	end customized tabby responsive tabs   **********************************/
+.tabcontent iframe {
+	width: 100%;
+	display: block;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.responsive-tabs .responsive-tabs__list__item {
+	margin-right: 5px;
+}
+
+.responsive-tabs .responsive-tabs__list__item--active, .responsive-tabs .responsive-tabs__list__item--active:hover {
+	color: #000000;
+}
+
+.tabcontent h2 {
+	font-size: 15px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+
+.tabcontent hr {
+	color: #ccc;
+}
+
+.responsive-tabs .responsive-tabs__panel {
+	padding: 10px 20px 20px;
+}
+
+.tabcontent ul li a {
+	display: inline-block;
+	max-width: 75%;
+	vertical-align: top;
+	line-height: normal;
+	padding-bottom: 5px;
+}
+
+.events-widget ul {
+	padding: 0;
+	list-style: none;
+	font-size: .8rem;
+}
+
+.events-widget .tabcontent {
+	padding: 10px;
+}
+
+.debug {
+	display: none;
+}
+
+.logged-in .debug::before {
+	font-style: italic;
+	content: "The following is debug information is visible only when you are logged in. It is however, visible in source code to all."
+}
+
+.logged-in .debug {
+	display: block;
+}

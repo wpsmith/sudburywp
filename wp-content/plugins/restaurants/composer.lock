@@ -1,0 +1,822 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d34f65fee5bcb1722068bd1afb6c8b42",
+    "packages": [
+        {
+            "name": "doctrine/inflector",
+            "version": "1.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
+                "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string"
+            ],
+            "time": "2019-10-30T19:59:35+00:00"
+        },
+        {
+            "name": "doctrine/instantiator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "6a1471ddbf2f448b35f3a8e390c903435e6dd5de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/6a1471ddbf2f448b35f3a8e390c903435e6dd5de",
+                "reference": "6a1471ddbf2f448b35f3a8e390c903435e6dd5de",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^6.0",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpbench/phpbench": "^0.13",
+                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-shim": "^0.11",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.com/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://www.doctrine-project.org/projects/instantiator.html",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "time": "2019-12-23T19:18:31+00:00"
+        },
+        {
+            "name": "stoutlogic/acf-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StoutLogic/acf-builder.git",
+                "reference": "9c731fd5cf41c6145769d6af16cbfb193ac328cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StoutLogic/acf-builder/zipball/9c731fd5cf41c6145769d6af16cbfb193ac328cb",
+                "reference": "9c731fd5cf41c6145769d6af16cbfb193ac328cb",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "^1.1",
+                "doctrine/instantiator": "^1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpdocumentor/reflection-docblock": "2.*",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StoutLogic\\AcfBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Pfisterer",
+                    "email": "steve@stoutlogic.com"
+                }
+            ],
+            "description": "An Advanced Custom Field Configuration Builder",
+            "time": "2020-04-08T18:10:22+00:00"
+        },
+        {
+            "name": "wpsmith/debug",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Debug",
+                "reference": "2781df5cd4028afa97bc734b202e3a113bd765f4"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/singleton": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress debug.",
+            "homepage": "https://github.com/wpsmith/Debug",
+            "keywords": [
+                "debug",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Debug/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/fields",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Fields",
+                "reference": "750caea277091ef6b610dc5f7a2662a0af2c0550"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "stoutlogic/acf-builder": "*",
+                "wpsmith/singleton": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress fields.",
+            "homepage": "https://github.com/wpsmith/Fields",
+            "keywords": [
+                "acf",
+                "acf pro",
+                "advanced custom fields",
+                "custom fields",
+                "fields",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Fields/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/functions",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Functions",
+                "reference": "00b35302e10c8c1f62222d3481d8edb09a976c6a"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/debug": "dev-master"
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\": "src/"
+                },
+                "files": [
+                    "src/functions.php",
+                    "src/archives.php",
+                    "src/conditionals.php",
+                    "src/column-classes.php",
+                    "src/images.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress functions.",
+            "homepage": "https://github.com/wpsmith/Functions",
+            "keywords": [
+                "functions",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Functions/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/genesis-archive-settings",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/GenesisArchiveSettings",
+                "reference": "abbfd58cec1466e38a2357b52080b6b0780ebafc"
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\Genesis\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Custom Genesis CPT/Taxonomy Archive Settings admin page that adds an archive image.",
+            "homepage": "https://github.com/wpsmith/GenesisArchiveSettings",
+            "keywords": [
+                "archive",
+                "custom-post-types",
+                "genesis",
+                "taxonomy",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/GenesisArchiveSettings/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/plugin",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Plugin",
+                "reference": "b83a1c1eec8005f9a73a2f4d7eaf4f6532e02d72"
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\Plugin\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Core class for extending WordPress plugins and hiding WordPress plugins on the plugins page.",
+            "homepage": "https://github.com/wpsmith/Plugin",
+            "keywords": [
+                "dependency",
+                "extension",
+                "extension",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Plugin/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/posttype",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/PostType",
+                "reference": "31885be04c231989e706ad3cb63b501d1de2224c"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/fields": "dev-master",
+                "wpsmith/functions": "dev-master",
+                "wpsmith/registerable": "dev-master",
+                "wpsmith/singleton": "*",
+                "wpsmith/templates": "dev-master",
+                "wpsmith/utils": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\PostTypes\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress Post Type.",
+            "homepage": "https://github.com/wpsmith/PostType",
+            "keywords": [
+                "post type",
+                "post types",
+                "posttype",
+                "posttypes",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/PostType/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/registerable",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Registerable",
+                "reference": "fbcc36aabf8cf6a806072d52ea34eae3971f1278"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/functions": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress Registerable Abstract.",
+            "homepage": "https://github.com/wpsmith/Registerable",
+            "keywords": [
+                "post type",
+                "post types",
+                "taxonomy",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Registerable/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/shortcode",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Shortcode",
+                "reference": "90fcc5f48dccbc31c2acad4df740f8d6407bbe5b"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/singleton": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\Shortcodes\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress shortcode.",
+            "homepage": "https://github.com/wpsmith/Shortcode",
+            "keywords": [
+                "shortcode",
+                "shortcodes",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Shortcode/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/single-term-taxonomy",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/SingleTermTaxonomy",
+                "reference": "15e0499afbab26bf63ee92760c21adc0c0976d36"
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\Taxonomies\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress Single Term Taxonomy.",
+            "homepage": "https://github.com/wpsmith/SingleTermTaxonomy",
+            "keywords": [
+                "taxonomy",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/SingleTermTaxonomy/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/singleton",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Singleton",
+                "reference": "ebacf0525071bcd7f94c2a137dab392b9b9201a7"
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\Core\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Singleton Class for doing singleton's right.",
+            "homepage": "https://github.com/wpsmith/Singleton",
+            "keywords": [
+                "dependency",
+                "plugin",
+                "singleton",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Singletone/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/taxonomy",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Taxonomy",
+                "reference": "13c06c139da34ac865e173c20a8937b5962a6f55"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/fields": "dev-master",
+                "wpsmith/functions": "dev-master",
+                "wpsmith/registerable": "dev-master",
+                "wpsmith/single-term-taxonomy": "dev-master",
+                "wpsmith/singleton": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\Taxonomies\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress Taxonomy.",
+            "homepage": "https://github.com/wpsmith/Taxonomy",
+            "keywords": [
+                "taxonomy",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Taxonomy/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/templates",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Templates",
+                "reference": "a895ce3262b9eb8aa38c001bc2874b975da385cd"
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "wpsmith/singleton": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\Templates\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress templates.",
+            "homepage": "https://github.com/wpsmith/Templates",
+            "keywords": [
+                "templates",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Templates/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/utils",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Utils",
+                "reference": "a3aa13f929b4145957a025dba2cf098447d6e8e9"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/singleton": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\Core\\": "src/",
+                    "WPS\\Core\\Utils\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Utility Functions/Helpers.",
+            "homepage": "https://github.com/wpsmith/Utils",
+            "keywords": [
+                "utils"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Utils/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "wpsmith/widget",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Widget",
+                "reference": "44e2883ac46cd329cc93113caabaf630f9382092"
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "wpsmith/singleton": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPS\\WP\\Widgets\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Smith",
+                    "email": "t@wpsmith.net",
+                    "homepage": "https://wpsmith.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress widget base class.",
+            "homepage": "https://github.com/wpsmith/Widget",
+            "keywords": [
+                "widgets",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/wpsmith/Widget/issues"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "wpsmith/singleton": 20,
+        "wpsmith/widget": 20,
+        "wpsmith/taxonomy": 20,
+        "wpsmith/shortcode": 20,
+        "wpsmith/posttype": 20,
+        "wpsmith/genesis-archive-settings": 20,
+        "wpsmith/plugin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}

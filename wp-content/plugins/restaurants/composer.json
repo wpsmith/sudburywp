@@ -1,0 +1,443 @@
+{
+  "name": "wpsmith/social-distancing",
+  "description": "Social Distancing",
+  "type": "project",
+  "license": "GPLv2+",
+  "authors": [
+    {
+      "name": "Travis Smith",
+      "email": "t@wpsmith.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "WPS\\WP\\Plugins\\SocialDistancing\\": "includes/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "name": "wpsmith/widgets",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Widgets",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/widget",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Widget",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/utils",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Utils",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/user",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/User",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/transients",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Transients",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/templates",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Templates",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/taxonomy",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Taxonomy",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/slideout-menu",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/SlideoutMenu",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/site",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Site",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/singleton",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Singleton",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/single-term-taxonomy",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/SingleTermTaxonomy",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/shortcodes",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Shortcodes",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/shortcode",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Shortcode",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/servefile",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/ServeFile",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/security",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Security",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/search",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Search",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/scripts",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Scripts",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/script",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Script",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/schema",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Schema",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/sanitizer",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Sanitizer",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/roles",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Roles",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/rewrite",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Rewrite",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/registerable",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Registerable",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/posttypes",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/PostTypes",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/posttype",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/PostType",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/plugin",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Plugin",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/parallax",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Parallax",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/page",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Page",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/options",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Options",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/nojs",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/NoJS",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/muautoloader",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/MuAutoloader",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/media",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Media",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/http2",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/HTTP2",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/gravityformsmergetags",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/GravityFormsMergeTags",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/gravityformsaddon",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/GravityFormsAddOn",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/gravityforms",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/GravityForms",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/genesis-child",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/GenesisChild",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/genesis-archive-settings",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/GenesisArchiveSettings",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/functions",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Functions",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/flexible-widgets",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/FlexibleWidgets",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/fields",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Fields",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/debug",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Debug",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/customizer",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Customizer",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/cleanup",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Cleanup",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/capabilities",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Capabilities",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/brand",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Brand",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/asynctransients",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/AsyncTransients",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/admin-options",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/AdminOptions",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/ajax",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Ajax",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/admin",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/Admin",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "name": "wpsmith/acf",
+      "type": "path",
+      "url": "/Users/travis.smith/Projects/WP/wps-core-classes/ACF",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "scripts": {},
+  "require": {
+    "php": ">=7.0.0",
+    "wpsmith/singleton": "dev-master",
+    "wpsmith/widget": "dev-master",
+    "wpsmith/taxonomy": "dev-master",
+    "wpsmith/shortcode": "dev-master",
+    "wpsmith/posttype": "dev-master",
+    "wpsmith/genesis-archive-settings": "dev-master",
+    "wpsmith/plugin": "dev-master"
+  }
+}

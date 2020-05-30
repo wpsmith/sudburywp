@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/*
+Theme Name: Virtue Child
+Theme URI: http://friendsofsudburyseniors.com/virtue-child/
+Description: Virtue Child Theme. Based on the Virtue theme by Kadence Themes. Extremely versatile with tons of options, easy to customize and loaded with great features. The clean modern design is built with html5 and css3 and uses the powerful responsive framework from Bootstrap to be a fully responsive and mobile friendly. Ecommerce (Woocommerce) ready. The versatile design is perfect for any kind of business, online store, portfolio or personal site. Virtue is built with a powerful options panel where you can set things like your home layout, sliders, custom fonts, and completely customize your look without writing any CSS. 
+Version: 2.5.4
+Author: Kathryn Dannay
+Author URI: http://dannay.com
+Template: virtue
+Tags: responsive-layout, two-columns, one-column, custom-colors, custom-header, custom-menu, featured-images, translation-ready, theme-options, photoblogging
+Text Domain: virtue-child
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Test From Ed */
+
+.eventbrite-ticket-embed > iframe {
+    height: 300px !important;
+width: 300px !important;
+}
+#nav-second ul.sf-menu > li {
+    width: 12%; /* was 16.5 */
+}
+#topbar-search .zeno_font_resizer_container a{
+color: #c7ca06;
+}
+/* to align font resize and search box in same row */
+
+#topbar-search .zeno_font_resizer_container {
+max-width: 120px;
+float: left;
+width: 50%;
+margin-top: 5px;
+margin-bottom: -5px;
+z-index: -1;
+}
+H2 {border-bottom: 1px solid #c7ca06 }
+H3 {border-bottom: 1px solid #F0A600 }/* gold underline */
+
+form#searchform.form-search {width:50%}
+#content a {
+text-decoration: underline;}
+
+/* to add carrots to menus */
+
+.sf-menu a.sf-with-ul:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+   content: "\f0d7";
+   float: right;
+margin-right: 5px;
+padding-right: 5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* to clean up bullets in sidebar */
+
+.sidebar ul {
+list-style-type: disc;
+list-style-position: inside;
+}
+.sidebar li {
+border-bottom: 0px;
+margin-left: 10px;
+}
+.sidebar a:link, .sidebar a:visited {
+color: #2357d5;
+text-decoration: underline;
+}
+.sidebar a:hover {
+color: #c7ca06;
+}
+.sidebar
+/* to remove author and date information from posts */
+.postdate, .kad-hidedate, .postdatetooltip{display:none;}
+.subhead .postedintop, .kad-hidepostedin {display:none;}
+.kad-hidepostauthortop, .postauthortop {display:none;}
+
+#content .home-iconmenu.homeitemcount1 a{
+background-color: #777777;
+text-decoration: none;
+height: 100%;
+text-align: left;
+}
+#content .home-iconmenu.homeitemcount1 a:hover{background-color: #2357d5; }
+
+#content .home-iconmenu.homeitemcount2 a{
+background-color: #777777;
+text-decoration: none;
+min-height:100%;
+align: center;
+}
+#content .home-iconmenu.homeitemcount2 a:hover{background-color: #2357d5; }
+
+/* #content .home-iconmenu.homeitemcount3 {min-height:420px;} */
+#content .home-iconmenu.homeitemcount3 a{
+background-color: #777777;
+text-decoration: none;
+}
+#content .home-iconmenu.homeitemcount3 a:hover{background-color: #2357d5; }
+#content ol.m_bullets {
+margin-left: 10px;
+padding-left: 20px;
+}
+
+#containerfooter h3 {font-weight: bold; color: #6a6d0e; font-size: 18px; border-bottom: 1px solid #6a6d0e;}
+#containerfooter a, #containerfooter a:visited  {text-decoration: underline; color: #2357d5}
+#containerfooter a:hover  {text-decoration: underline; color: #c7ca06}

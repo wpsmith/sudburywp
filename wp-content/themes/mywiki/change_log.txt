@@ -1,0 +1,107 @@
+Version 1.0
+
+	i)   Theme Submitted for approval
+	
+Version 1.01
+
+    i)   License and copyrights terms added in readme.txt.
+	ii)  Changes in header.php, footer.php, functions.php, comments.php and style.css for fixing the feedback points.
+	
+Version 1.01.1
+
+    i)   Removed unused images.
+
+Version 1.02
+
+    i)   Modified functions.php, header.php and footer.php.
+
+Version 1.03
+
+    i)   Fix in functions.php	
+
+Version 1.04
+
+    i)   inconsistent textdomain fixed.
+
+Version 1.05
+
+    i)   Added a template for the front page.	
+
+Version 1.06
+
+    i)   Added sanitized PHP code for ThemeOptions for security reasons.
+
+Version 1.06.1
+
+    i)   Modified sanitized PHP code for ThemeOptions for security reasons.
+
+Version 1.06.2
+
+    i)   Fixed Sanitization code.Version 1.06.
+   ii)   Fixed Sanitization in all input fields.
+   
+Version 1.07
+    i) Fixed header issue.
+	   
+Version 1.08
+    i) Fixed stylesheet url.
+ 
+Version 1.09
+    i) Fix image css in content area.
+	ii) Change FT Options logo.
+	iii) Remove space in Faster Themes.
+	iv) Set FT Options condition.
+	v) Set Widget css in Footer content area.
+
+Version 2.0
+
+	i) Set TGM for pagination.
+	ii) Change copyright text condition.
+	iii) Change theme author uri in style.css.
+
+Version 2.0.1
+
+	i) change theme options layout.
+
+Version 2.0.2
+
+	i) Fixed code appears in the comments.
+
+Version 2.0.3 (17th Nov. 2014)
+
+	i) Fixed JS error which was appearing in admin panel.
+    ii) Removed screen_icon() found in the file class-tgm-plugin-activation.php as it's deprecated.
+
+Version 2.1 (20th Nov. 2014)
+
+	i) Made the theme translation-ready.
+
+Version 2.1.1 (20th Nov. 2014)
+
+	i) Fixed text-domain.
+Version 2.1.2 (20th Nov. 2014)
+
+	i) Fixed text-domain.
+	
+Version 2.2 (24th Nov. 2014)
+
+	i) Added Spanish Translation files.
+	ii) Fixed JS issues.
+	
+Version 2.2.1 (5th Dec. 2014)
+    i) A few small fixes.
+
+Version 2.2.2 (12th Dec. 2014)
+    i) Fixed CSS issue.
+
+Version 2.2.3 (20th Aug 2015)
+    i) Fixed WP_Widget deprecation issue.
+
+Version 2.3 (19th March 2016)
+    i) Fixed Small Bugs
+
+Version 2.4 (04th Jan 2017)
+    i) Fixed Small Bugs
+
+Version 2.5 (21st March 2017)
+    i) Changed feature image.

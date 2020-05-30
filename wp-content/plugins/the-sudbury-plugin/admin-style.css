@@ -1,0 +1,614 @@
+body {
+}
+
+.edit-dept-feature input {
+	width: 80%;
+}
+
+.ui-datepicker-clear {
+	background: #FFC7C7 !important;
+}
+
+.ui-datepicker-plus-week {
+	background: #D0D6FF !important;
+}
+
+.ui-datepicker {
+	width: 290px;
+}
+
+#ui-datepicker-div {
+	z-index: 100 !important;
+}
+
+.sudbury-metabox input[type=text], .sudbury-metabox input[type=email], .sudbury-metabox textarea, .sudbury-metabox select {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#sudbury_location_id { 
+    width:100%;
+}
+
+#sudbury-my-sites-metabox .inside h3 {
+	padding: 0;
+}
+
+.sudbury-settings-container h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.sudbury-fieldset {
+	border: #000 1px solid;
+	padding: 10px;
+	display: inline;
+}
+
+.sudbury-metabox label {
+	display: block;
+}
+
+.sudbury-metabox input[type=email] {
+	width: 300px;
+}
+
+.sudbury-url-input {
+	width: 100%;
+}
+
+.compat-field-sudbury_close_on_submit {
+       display:none;
+}
+
+#category-add-submit {
+	content: 'Add New Category';
+}
+
+#category-add-submit:disabled {
+	content: 'Syncing Category Accross Network';
+}
+
+.add_tag_suggestion {
+	text-decoration: underline;
+	color: #21759b;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+
+	font-size: 11px;
+	white-space: nowrap;
+	line-height: 1.8em;
+}
+
+.add_category_icon {
+	display: block;
+	float: left;
+	background: url(images/add-cat.gif) no-repeat;
+	width: 10px;
+	height: 10px;
+	margin-right: 3px;
+	margin-top: 5px;
+
+}
+
+.add_category_icon:hover {
+	background: url(images/add-cat.gif) no-repeat -10px 0;
+}
+
+.sudbury-setting-section {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 20px;
+}
+
+.sudbury-column {
+	float: left;
+	margin-left: 25px;
+	padding-left: 25px;
+	border-left: 1px solid #cccccc;
+}
+
+.sudbury-column:first-child {
+	margin-left: 0px;
+	border-left: none;
+}
+
+.sudbury_timepicker_stamp {
+	float: left;
+	min-width: 120px;
+	font-size: 16px;
+	padding-top: 4px;
+}
+
+.sudbury_timepicker_field {
+	float: left;
+	min-width: 100px;
+	margin: 0 10px 0 0;
+}
+
+.sudbury_timepicker_more {
+	float: left;
+	font-size: 14px;
+	padding-top: 6px;
+	min-width: 100px;
+}
+
+@media (max-width: 782px) {
+	#wpfooter {
+		display: block !important; /* Always show the Footer which contains copyright and access warning */
+	}
+
+	#footer-left {
+		text-align: center;
+	}
+
+	#footer-upgrade {
+		display: none;
+	}
+
+}
+
+#mailto-example {
+	cursor: pointer;
+}
+
+input[value="Delete My Site Permanently"] {
+	background-color: #ff3019 !important;
+	border-color: #ff2222 !important;
+	box-shadow: rgba(221, 0, 0, 0.49) 0px 1px 0px 0px inset, rgba(221, 0, 0, 0.15) 0px 1px 0px 0px !important;
+}
+
+tr.guest-posted a.row-title {
+	pointer-events: none;
+	cursor: default;
+	color: #000;
+}
+tr.guest-posted {
+	color: white;
+	background: -webkit-repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+	background: repeating-linear-gradient(45deg, #FFF4EF, #FFF4EF 10px, #FFEEE2 10px, #FFEEE2 20px);
+}
+
+
+.media-modal-content .compat-item {
+	display: none;
+}
+
+.sudbury-well {
+	background-color: #EBEBEB;
+	border-radius: 3px;
+	padding: 5px;
+	border: 1px solid #E2E2E2;
+}
+
+/* Legacy Menu Styles */
+
+.legacy-menu-container .Button, .legacy-menu-container .Button:link, .legacy-menu-container .Button:visited {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px;
+	border: 2px solid;
+	border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+	background-color: ButtonFace;
+	color: ButtonText;
+	font-family: "Verdana", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.legacy-menu-container .Button:active {
+	border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
+
+.legacy-menu-container .Button:hover, .legacy-menu-container .Button:focus, .legacy-menu-container .Button:active {
+	text-decoration: underline;
+}
+
+.Menu {
+	margin: 0 auto;
+}
+
+.legacy-menu-container .Menu .Button:link, .legacy-menu-container .Menu .Button:visited {
+	width: 140px;
+	height: 15px;
+}
+
+/* Front page. */
+
+/* Legacy Colors */
+.legacy-menu-container .Button.Section, .legacy-menu-container .Button.Section:link, .legacy-menu-container .Button.Section:visited {
+	border-color: #5A6BA5 #1E2F69 #1E2F69 #5A6BA5;
+	background-color: #3C4D87;
+	color: #FFF;
+}
+
+.legacy-menu-container .Button.Section:active {
+	border-color: #1E2F69 #5A6BA5 #5A6BA5 #1E2F69;
+}
+
+.legacy-menu-container .Button.Action, .legacy-menu-container .Button.Action:link, .legacy-menu-container .Button.Action:visited {
+	border-color: #5AA56B #1E692F #1E692F #5AA56B;
+	background-color: #3C874D;
+	color: #FFF;
+}
+
+.legacy-menu-container .Button.Action:active {
+	border-color: #1E692F #5AA56B #5AA56B #1E692F;
+}
+
+.legacy-menu-container .Button.Eraser, .legacy-menu-container .Button.Eraser:link, .legacy-menu-container .Button.Eraser:visited {
+	border-color: #A55A6B #691E2F #691E2F #A55A6B;
+	background-color: #873C4D;
+	color: #FFF;
+}
+
+.legacy-menu-container .Button.Eraser:active {
+	border-color: #691E2F #A55A6B #A55A6B #691E2F;
+}
+
+.legacy-menu-container .Button.Tool, .legacy-menu-container .Button.Tool:link, .legacy-menu-container .Button.Tool:visited {
+	border-color: #A55AA5 #691E69 #691E69 #A55AA5;
+	background-color: #873C87;
+	color: #FFF;
+}
+
+.legacy-menu-container .Button.Tool:active {
+	border-color: #691E69 #A55AA5 #A55AA5 #691E69;
+}
+
+#setting-error-tgmsp-upgrade-soliloquy {
+	display: none;
+}
+
+.button-primary.sudbury-button-danger, .button-secondary.sudbury-button-danger {
+	background: #CC2E2E;
+	border-color: #A20000;
+        text-shadow: 0 -1px 1px #990806, 1px 0 1px #990e0c, 0 1px 1px #990307, -1px 0 1px #990705;
+	-webkit-box-shadow: 0 1px 0 #990b08;
+	box-shadow: 0 1px 0 #990605;
+}
+
+.button-primary.sudbury-button-success, .button-secondary.sudbury-button-success {
+	background: #04b51f;
+	border-color: #489600;
+	text-shadow: 0 -1px 1px #05990f, 1px 0 1px #0c9919, 0 1px 1px #058814, -1px 0 1px #079933;
+	-webkit-box-shadow: 0 1px 0 #02650a;
+	box-shadow: 0 1px 0 #137319;
+}
+
+.button-primary.sudbury-button-danger:hover, .button-secondary.sudbury-button-danger:hover,
+.button-primary.sudbury-button-danger:active, .button-secondary.sudbury-button-danger:active,
+.button-primary.sudbury-button-danger:visited, .button-secondary.sudbury-button-danger:visited,
+.button-primary.sudbury-button-danger:focus, .button-secondary.sudbury-button-danger:focus {
+	background: #BE1E1E;
+	border-color: #A20000;
+}
+
+.button-primary.sudbury-button-success:hover, .button-secondary.sudbury-button-success:hover,
+.button-primary.sudbury-button-success:active, .button-secondary.sudbury-button-success:active,
+.button-primary.sudbury-button-success:visited, .button-secondary.sudbury-button-success:visited,
+.button-primary.sudbury-button-success:focus, .button-secondary.sudbury-button-success:focus {
+	background: #24BE1E;
+	border-color: #4EA200;
+}
+
+H1.BarRed {
+	background: #9C0023;
+	color: #FFF;
+	padding: 20PX;
+	line-height: 1em;
+	text-align:center;
+	margin: -11PX -12PX 0 -12px;
+}
+
+/* ON OFF SWITCH */
+
+.onoffswitch {
+    position: relative;
+    width: 52px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none !important;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999999;
+    border-radius: 3px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s;
+    -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 14px;
+    padding: 0;
+    line-height: 14px;
+    font-size: 10px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 9px;
+    background-color: #34A7C1;
+    color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 9px;
+    background-color: #EEEEEE;
+    color: #999999;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 18px;
+    margin: -2px;
+    background: #FFFFFF;
+    border: 2px solid #999999;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 34px;
+    -moz-transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+.CodeMirror-code pre {
+	padding-left: 30px !important;
+}
+
+.tabs li {
+	float: left;
+	list-style: none;
+	border: 1px solid #666;
+	padding: 10px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background: #eee;
+	margin-bottom: -1px;
+	margin-left: 10px !important;
+	margin-top: 10px;
+	z-index: 10;
+}
+
+.tabs {
+	clear: right;
+	margin: 0;
+	padding: 0;
+}
+
+.tab-panels {
+	padding: 10px;
+	border: 1px solid #666;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.tab.tab-active {
+	background: #fff;
+	border-bottom-color: #fff;
+}
+
+/* Department Info Layout */
+#wpbody-content #sudbury-meta-box-container.columns-1 .postbox-container {
+	width: 100%;
+}
+
+#wpbody-content #sudbury-meta-box-container.columns-2 .postbox-container {
+	width: 49.5%;
+}
+
+#wpbody-content #sudbury-meta-box-container.columns-2 #postbox-container-2,
+#wpbody-content #sudbury-meta-box-container.columns-2 #postbox-container-3,
+#wpbody-content #sudbury-meta-box-container.columns-2 #postbox-container-4 {
+	float: right;
+	width: 50.5%;
+}
+
+#wpbody-content #sudbury-meta-box-container.columns-3 .postbox-container {
+	width: 33.5%;
+}
+
+#wpbody-content #sudbury-meta-box-container.columns-3 #postbox-container-1 {
+	width: 33%;
+}
+
+#wpbody-content #sudbury-meta-box-container.columns-3 #postbox-container-3,
+#wpbody-content #sudbury-meta-box-container.columns-3 #postbox-container-4 {
+	float: right;
+}
+
+#wpbody-content #sudbury-meta-box-container.columns-4 .postbox-container {
+	width: 25%;
+}
+
+#sudbury-meta-box-container-wrap .columns-3 #postbox-container-4 .empty-container {
+	border: none !important;
+}
+
+.ie8 #wpbody-content #sudbury-meta-box-container .postbox-container {
+	width: 49.5%;
+}
+
+.ie8 #wpbody-content #sudbury-meta-box-container #postbox-container-2,
+.ie8 #wpbody-content #sudbury-meta-box-container #postbox-container-3,
+.ie8 #wpbody-content #sudbury-meta-box-container #postbox-container-4 {
+	float: right;
+	width: 50.5%;
+}
+
+.ie8 #sudbury-meta-box-container #postbox-container-3 .empty-container,
+.ie8 #sudbury-meta-box-container #postbox-container-4 .empty-container {
+	border: 0 none;
+	height: 0;
+	min-height: 0;
+}
+
+#sudbury-meta-box-container-wrap {
+	overflow: hidden;
+	margin: 0 -8px;
+}
+
+#sudbury-meta-box-container .postbox .inside {
+	margin-bottom: 0;
+}
+
+#sudbury-meta-box-container .meta-box-sortables {
+	margin: 0 8px;
+	min-height: 100px;
+}
+
+/* @todo: this was originally in this section, but likely belongs elsewhere */
+#the-comment-list td.comment p.comment-author {
+	margin-top: 0;
+	margin-left: 0;
+}
+
+#the-comment-list p.comment-author img {
+	float: left;
+	margin-right: 8px;
+}
+
+#the-comment-list p.comment-author strong a {
+	border: none;
+}
+
+#the-comment-list td {
+	vertical-align: top;
+}
+
+#the-comment-list td.comment {
+	word-wrap: break-word;
+}
+
+#the-comment-list td.comment img {
+	max-width: 100%;
+}
+
+/* Dashboard common styles */
+
+#sudbury-meta-box-container h4, /* Back-compat for pre-4.4 */
+#sudbury-meta-box-container h3,
+#dashboard_quick_press .drafts h2 {
+	margin: 0 12px 8px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: normal;
+	color: #23282d;
+}
+
+#dashboard_quick_press .drafts h2 {
+	line-height: inherit;
+}
+
+#sudbury-meta-box-container .inside h4, /* Back-compat for pre-4.4 */
+#sudbury-meta-box-container .inside h3 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/* =Media Queries
+-------------------------------------------------------------- */
+
+/* one column on the dash */
+@media only screen and (max-width: 799px) {
+	#wpbody-content #sudbury-meta-box-container .postbox-container {
+		width: 100%;
+	}
+}
+
+/* two columns on the dash, but keep the setting if one is selected */
+@media only screen and (min-width: 800px) and (max-width: 1499px) {
+	#wpbody-content #sudbury-meta-box-container .postbox-container {
+		width: 49.5%;
+	}
+
+	#wpbody-content #sudbury-meta-box-container #postbox-container-2,
+	#wpbody-content #sudbury-meta-box-container #postbox-container-3,
+	#wpbody-content #sudbury-meta-box-container #postbox-container-4 {
+		float: right;
+		width: 50.5%;
+	}
+
+	#sudbury-meta-box-container #postbox-container-3 .empty-container,
+	#sudbury-meta-box-container #postbox-container-4 .empty-container {
+		border: 0 none;
+		height: 0;
+		min-height: 0;
+	}
+
+	#sudbury-meta-box-container #postbox-container-3 .empty-container:after,
+	#sudbury-meta-box-container #postbox-container-4 .empty-container:after {
+		display: none;
+	}
+
+	#wpbody #wpbody-content #sudbury-meta-box-container.columns-1 .postbox-container {
+		width: 100%;
+	}
+
+	#wpbody #wpbody-content .metabox-holder.columns-1 .postbox-container .empty-container {
+		border: 0 none;
+		height: 0;
+		min-height: 0;
+	}
+
+	/* show the radio buttons for column prefs only for one or two columns */
+	.index-php .screen-layout,
+	.index-php .columns-prefs {
+		display: block;
+	}
+
+	.columns-prefs .columns-prefs-3,
+	.columns-prefs .columns-prefs-4 {
+		display: none;
+	}
+
+	.metabox-holder .postbox-container .empty-container:after {
+		display: block;
+	}
+}
+
+
+

@@ -1,0 +1,246 @@
+changelog
+
+1.0.1
+--------
+Fixed default.css not having colours for form areas without selecting a pre-set style
+
+1.0.2
+________
+Fixed profile editing issue where labels were not displaying or displaying incorrectly.
+
+1.0.3
+---------
+Theme now works with BuddyPress 1.2
+
+1.0.4
+---------
+Fixed a problem on some installs in functions.php
+
+1.0.5
+---------
+Fixed a problem with forum topic posts function call
+
+1.0.6
+---------
+- Added Single WP support without BuddyPress
+- Added home page set as default
+- Updated with BuddyPress 1.2.1 bug fixes
+- Added language mo/po files (UK)
+- Added blog and news template
+
+1.0.7
+-------------
+- Updated documentation
+
+1.0.8
+-------------
+- Updated documentation
+
+1.0.9
+------------
+- Added site wide members message to footer
+
+1.1
+-----------
+- Fixed friend connections off bug
+
+1.1.2
+----------
+- Fixed global language variable name to same throughout
+
+1.1.3
+---------
+- Added ability to have children pages using drop down navigation: changed files main-navigation.php, layout.css, navigation.css, footer.php, added js/ files, header.php
+
+1.1.4
+--------
+- Changed call to content-body check in activity stream - activity/entry.php line change
+- Fixed preset styles styling of children in some browsers - all styles/css changed
+
+1.1.5
+--------
+- Fixed wrong opening tag
+
+1.1.6
+--------
+- Corrected missing php declaration in home.php: home.php only file to change
+
+1.1.7
+--------
+- Fixed theme options custom style not working on some servers: changed files: header.php, theme-options.php, options.php
+
+1.1.8
+--------
+- Updated to work with buddypress 1.2.2.1
+
+1.1.9
+--------
+- Fixed profile not showing in userbar for others profiles
+
+2.0
+-------
+- Updated for 1.2.3
+
+2.1
+-------
+- Added catch for some servers when using logo causing errors
+
+2.2
+------
+- Updated for BuddyPress 1.2.4
+- Changed way call categories in drop downs on theme options
+- Added ability to position BuddyPress navigation in top navigation or keep in bottom bar
+- Changed member bar method of showing so it now is not in sidebar and profile pages are 2 column with one widget column
+- Updated all locate / includes calls to be template specific to allow better child and parent themeing
+
+2.3
+------
+- Updated for WordPress 3.0
+- NEW FEATURE: Added post thumbnails to archives and search using wordpress built in feature
+- Updated for BuddyPress 1.2.4.1
+- Updated mo /po files
+
+2.4
+-----
+- Updated for BuddyPress 1.2.5
+
+2.5
+-----
+- Fixed issue where if you use on a sub blog the theme theme options don't work since 3.0
+
+2.6
+----
+- Updated to work with BuddyPress 1.2.5.2
+
+2.7
+----
+- Updated language files
+- Updated to fix potential issue with some groups in 1.2.5.2
+
+2.8
+----
+- Reverted timestamp change
+
+2.9
+----
+- Updated language files and some CSS
+
+v3.0
+---
+- New bp exists functionality for sub blogs not showing buddypress navigation
+
+v3.1
+---
+- Updated for BuddyPress 1.2.6
+
+v3.2
+---
+- Updated zip
+
+v3.3
+----
+- Classifieds plugin modification.
+
+v.3.3.1
+-------
+- Comments fix
+
+v.3.4
+-------
+- BuddyPress 1.2.7 update
+- Sidebar changes
+- Regenerated mo / po files
+- Language function changes
+
+v.3.5
+-----
+- Language changes
+
+v.3.5.1
+----
+- Language changes
+
+v.3.5.2
+-------
+- ID change
+
+v.3.6
+-----
+- BuddyPress 1.2.7 update
+
+v.3.6.1
+--------
+- Updated zip format
+
+v.3.6.2
+-------
+- Updated for WordPress 3.1
+- Re PDF Manual
+- Added update notification function
+
+v.3.6.3
+-------
+- Fixed some functions
+
+v.3.6.4
+-------
+- WPDEBUG and 3.1
+
+v3.6.5
+------
+Function tidy
+
+3.6.7
+-----
+3.2 update
+
+4
+-
+- BuddyPress 1.5 update
+- Compressed CSS sheets
+- Reduction in CSS sheet number
+- Use enqueue for all styling and scripts
+- New set up theme function
+- Updated header links and formats
+- New theme function allows for child themes to override everything including function files
+- Updated comment forms to use functions and comment_form
+
+4.1
+---
+- Custom colours bug fix
+
+4.1.1
+Removal of TEXT_DOMAIN to use a string and also merging of strings for buddypress and theme to give consistency and better language handling.
+
+4.1.2
+Removal of functions from child theme using from parent automatically now to enqueue just update child.css with your changes
+
+4.1.3
+Fixed template on blog being a page
+
+4.1.4
+- WordPress 3.3 ready
+- Fixes for updated theme check
+
+4.1.5
+styles from print to scripts on enqueue
+
+4.1.6
+Menu fix
+
+4.1.7
+-------
+- Add nav menu support
+- Add BuddyPress 1.6 compatibility
+- Add theme customizer support
+- Fix attachment page
+- Fix Supersleight causing issues with IE7+
+
+4.1.8
+-------
+- Fix footer menu not displaying
+
+
+
+
+211587-1371662098

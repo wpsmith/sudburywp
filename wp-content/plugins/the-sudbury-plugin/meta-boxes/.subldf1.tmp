@@ -1,0 +1,134 @@
+<?php
+
+/**
+ * Class Sudbury_Post_Options
+ *
+ * A Class for general Post Options like redirecting to another URL all in one clean interface
+ *
+ * @author     Eddie Hurtig <hurtige@sudbury.ma.us>
+ * @package    Sudbury
+ * @subpackage Plugin
+ */
+class Sudbury_Post_Options {
+
+	var $post_types;
+
+	function __construct() {
+		add_action( 'admin_init', array( &$this, 'init' ) );
+	}
+
+	function init() {
+
+		$this->post_types = apply_filters( 'post_options_post_types', array( 'post', 'page', 'service', 'event' ) );
+
+		add_action( 'add_meta_boxes', array( &$this, 'add_meta_box' ) );
+		add_action( 'save_post', array( &$this, 'save' ) );
+
+		add_action( 'edit_form_after_title', array( &$this, 'start_editor_wrap' ) );
+		add_action( 'edit_form_after_editor', array( &$this, 'end_editor_wrap' ) );
+	}
+
+	/**
+	 * registers the metabox
+	 */
+	function add_meta_box() {
+		foreach ( $this->post_types as $post_type ) {
+			$obj = get_post_type_object( $post_type );
+			add_meta_box( 'sudbury-news-articles', $obj->labels->singular_name . ' Options', array(
+				&$this,
+				'render'
+			), $post_type );
+		}
+	}
+
+	/**
+	 * renders the metabox
+	 */
+	function render() {
+		$id   = get_the_ID();
+		$meta = get_post_meta( $id );
+
+		$redirect_url     = ( isset( $meta['sudbury_redirect_url'][0] ) ? $meta['sudbury_redirect_url'][0] : '' );
+		$redirect_enabled = ( isset( $meta['sudbury_redirect_enabled'][0] ) ? $meta['sudbury_redirect_enabled'][0] : false );
+		$full_width       = ( isset( $meta['sudbury_full_width'][0] ) ? $meta['sudbury_full_width'][0] : false );
+		?>
+		<div class="sudbury-metabox">
+			<?php do_action( 'sudbury_before_redirect_url_form' ); ?>
+
+			<div id="sudbury_redirect_enabled_container">
+				<label for="sudbury_redirect_enabled">
+					<input id="sudbury_redirect_enabled" name="sudbury_redirect_enabled" type="checkbox" <?php checked( $redirect_enabled ); ?>>
+					Redirect to another Page or Website
+				</label>
+			</div>
+			<div id="sudbury_redirect_url_container" <?php if ( ! $redirect_enabled ) : ?> style="display: none;" <?php endif; ?>>
+				<label for="sudbury_redirect_url">
+					<b> Redirect URL:</b>
+					<i> This will redirect anyone who clicks on this <?php echo esc_html( strtolower( get_post_type_object( get_post_type( $id ) )->labels->singular_name ) ); ?>  to the following URL .</i><br />
+					<input type="text" style="width:90%;" id="sudbury_redirect_url" name="sudbury_redirect_url" value="<?php echo esc_attr( $redirect_url ); ?>" />
+				</label>
+			</div>
+
+			<?php if ( 'page' !== get_post_type( $id ) ) : ?>
+				<hr>
+				<div id="sudbury_full_width_container">
+					<label for="sudbury_full_width">
+						<b> Full Width Template</b>
+						<input type="checkbox" id="sudbury_full_width" name="sudbury_full_width" <?php checked( $full_width ); ?> />
+					</label>
+				</div>
+			<?php endif; ?>
+			<?php do_action( 'sudbury_after_redirect_url_form' ); ?>
+
+		</div>
+	<?php
+	}
+
+	/**
+	 * Opens a div wrapper around the wp_editor that forces it to be hidden if redirects are enabled because a redirected
+	 * news article doesn't have content, just a teaser and title
+	 */
+	function start_editor_wrap() {
+		$id               = get_the_ID();
+		$meta             = get_post_meta( $id );
+		$redirect_enabled = ( isset( $meta['sudbury_redirect_enabled'][0] ) ? $meta['sudbury_redirect_enabled'][0] : false );
+		?>
+		<div id="sudbury_wp_editor_wrapper" <?php if ( $redirect_enabled ) : ?>style="display:none;" <?php endif; ?>>
+	<?php
+	}
+
+
+	/**
+	 * Closes the Wrapper for the wp_editor
+	 */
+	function end_editor_wrap() {
+		?>
+		</div>
+	<?php
+	}
+
+	/**
+	 * Saves the options
+	 *
+	 * @param int $post_id The ID of the post being saved
+	 */
+	function save( $post_id ) {
+		if ( wp_is_post_revision( $post_id ) ) {
+			return;
+		}
+
+		if ( isset( $_REQUEST['sudbury_redirect_url'] ) ) {
+			$redirect_url = esc_url_raw( $_REQUEST['sudbury_redirect_url'] );
+
+			update_post_meta( $post_id, 'sudbury_redirect_url', $redirect_url );
+		}
+
+		if ( isset( $_REQUEST['sudbury_redirect_enabled'] ) ) {
+			update_post_meta( $post_id, 'sudbury_redirect_enabled', true );
+		} else {
+			update_post_meta( $post_id, 'sudbury_redirect_enabled', false );
+		}
+	}
+}
+
+new Sudbury_Post_Options();
